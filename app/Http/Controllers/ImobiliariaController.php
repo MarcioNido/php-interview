@@ -3,16 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\Models\Imobiliaria;
-use Illuminate\Http\Response;
+use Illuminate\Database\Eloquent\Collection;
 
 class ImobiliariaController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
-     * @return Response
+     * Lista de Imobiliarias
+     * GET /api/imobiliarias
      */
-    public function index()
+    public function index(): Collection
     {
         return Imobiliaria::all();
     }
