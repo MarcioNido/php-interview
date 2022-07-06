@@ -6,7 +6,7 @@ Aplicação fictícia utilizada para entrevistas técnicas.
 
 Para realizar a entrevista téncica você precisará: 
 
-- Uma conta no GitHub: `https://docs.github.com/pt/get-started/onboarding/getting-started-with-your-github-account`
+- Uma conta no GitHub: https://docs.github.com/pt/get-started/onboarding/getting-started-with-your-github-account
 - GIT: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
 - Docker: https://docs.docker.com/get-docker/
 
