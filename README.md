@@ -11,11 +11,11 @@ Para instalar o php-interview é necessário apenas o GIT e o Docker.
 
 ### Instalação
 
-- Clone o repositório php-interview `git clone https://bitbucket.org/leardi-developers/php-interview.git`
-- Vá para o diretório raiz da aplicação `cd php-interview`
-- Suba os containers da aplicação com docker-compose `docker-compose up -d`
-- Execute a migração para criar a base de dados `docker exec -it php-interview php artisan migrate:fresh`
-- Carregue a base com alguns dados de teste `docker exec -it php-interview php artisan db:seed`
+- Clone o repositório php-interview: `git clone https://bitbucket.org/leardi-developers/php-interview.git`
+- Vá para o diretório raiz da aplicação: `cd php-interview`
+- Suba os containers da aplicação com docker-compose: `docker-compose up -d`
+- Execute a migração para criar a base de dados: `docker exec -it php-interview php artisan migrate:fresh`
+- Carregue a base com alguns dados de teste: `docker exec -it php-interview php artisan db:seed`
 
 ### Verificar Instalação
 
