@@ -11,6 +11,8 @@ Para instalar o php-interview é necessário apenas o GIT e o Docker.
 
 ### Instalação
 
+Siga os seguintes passos para instalar o php-interview:
+
 - Clone o repositório php-interview: `git clone https://bitbucket.org/leardi-developers/php-interview.git`
 - Vá para o diretório raiz da aplicação: `cd php-interview`
 - Suba os containers da aplicação com docker-compose: `docker-compose up -d`
