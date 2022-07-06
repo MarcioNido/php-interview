@@ -14,8 +14,8 @@ Para realizar a entrevista téncica você precisará:
 
 Siga os seguintes passos:
 
-- Acesse o repositório php-interview em: `https://github.com/MarcioNido/php-interview`
-- Faça um fork do repositório para a sua conta do GitHub: `https://docs.github.com/pt/get-started/quickstart/fork-a-repo`
+- Acesse o repositório php-interview em: https://github.com/MarcioNido/php-interview
+- Faça um fork do repositório para a sua conta do GitHub: https://docs.github.com/pt/get-started/quickstart/fork-a-repo
 - Em seu terminal, clone o seu repositório php-interview. Utilize o seu repositório e não o original ou não conseguirá fazer alterações: `git clone https://github.com/<seu-usuario-github>/php-interview.git`
 - Vá para o diretório raiz da aplicação: `cd php-interview`
 - Suba os containers da aplicação com docker-compose: `docker-compose up -d`
