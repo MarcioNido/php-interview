@@ -5,6 +5,7 @@ Aplicação fictícia utilizada para entrevistas técnicas.
 ### Requerimentos
 
 Para instalar o php-interview é necessário apenas o GIT e o Docker.
+
 - Instruções para instalar o GIT: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
 - Instruções para instalar o Docker: https://docs.docker.com/get-docker/
 
