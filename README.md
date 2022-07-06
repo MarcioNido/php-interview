@@ -39,4 +39,5 @@ Para rodar testes (unit tests & feature tests) utilize o seguinte comando:
 
 ### Execute as Tarefas
 
-Faça as alterações no código em seu ambiente local de desenvolvimento de acordo com as instruções que serão enviadas por e-mail. Depois atualize seu repositório e crie um PULL REQUEST para o repositório original. 
+Faça as alterações no código em seu ambiente local de desenvolvimento de acordo com as instruções que serão enviadas por e-mail. Depois atualize seu repositório e crie um PULL REQUEST para o repositório original. Instruções para criar o PULL REQUEST: https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
+
