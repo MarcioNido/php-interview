@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CorretorController;
+use App\Http\Controllers\EquipeController;
 use App\Http\Controllers\ImobiliariaController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -21,4 +22,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/corretores', [CorretorController::class, 'index']);
+Route::get('/equipes', [EquipeController::class, 'index']);
 Route::get('/imobiliarias', [ImobiliariaController::class, 'index']);
