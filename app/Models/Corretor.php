@@ -17,4 +17,10 @@ class Corretor extends Model
     {
         return $this->belongsTo(Imobiliaria::class, 'imobiliaria_id', 'id');
     }
+
+    public function equipe(): BelongsTo
+    {
+        return $this->belongsTo(Equipe::class, 'equipe_id', 'id');
+    }
+
 }

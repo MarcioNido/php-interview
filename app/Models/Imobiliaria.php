@@ -13,6 +13,11 @@ class Imobiliaria extends Model
     protected $table = 'imobiliarias';
     protected $fillable = ['nome'];
 
+    public function equipes(): HasMany
+    {
+        return $this->hasMany(Equipe::class, 'imobiliaria_id', 'id');
+    }
+
     public function corretores(): HasMany
     {
         return $this->hasMany(Corretor::class, 'imobiliaria_id', 'id');
